@@ -2,13 +2,15 @@
  * style.css
  */
 
+
+/*******************************************************
+ *
+ * block elements 
+ */
  body {
-   /* background-color: lightgray; */
-   /* background-image: url("linkedin-logo.png"); */
    background: repeating-linear-gradient( -45deg, #000 0px, #000 5px, #333 6px, #333 11px, #000 12px);
     width: 100%;
     color: #777777;
-   /* background-color: lightsalmon; */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
  }
 
@@ -43,8 +45,6 @@
  h2,h3,h4,h5,h6 {
   color: #4aaaa5;
   line-height: 2;
-  text-decoration: underline;
-  /* text-decoration-color:  */
   font-family: 'Georgia', Times, Times New Roman, serif;
  }
 
@@ -78,21 +78,27 @@
    color: gray;
  }
 
-
-/* visited link */
 a:visited {
     color: darkblue;
 }
 
-/* mouse over link */
 a:hover {
     color: darkmagenta;
 }
 
-/* selected link */
 a:active {
     color: blue;
 }
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
 
 footer {
   align-content: center;
@@ -109,6 +115,11 @@ footer {
    list-style-type: none;
  }
 
+
+ /*******************************************************
+  *
+  * class elements 
+  */
  .clearfix::after {
    content: "";
    display: block;
@@ -131,6 +142,11 @@ footer {
   border-color: #dddddd;
  }
 
+
+ /*******************************************************
+  *
+  * id elements 
+  */
  #foot_text {
    text-align: center;
  }
