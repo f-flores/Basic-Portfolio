@@ -52,7 +52,7 @@
   float: left;
   background-color: green;
   width: 620px;
-  padding: 15px 15px 30px 15px;
+  padding: 15px 13px 30px 13px;
  }
 
 
@@ -60,7 +60,7 @@
   float: right;
   background-color: green; 
   width: 250px;
-  padding: 20px 10px;
+  padding: 20px 8px;
  }
 
  img {
@@ -92,6 +92,7 @@ a:active {
 
 hr { 
   display: block;
+  color:  #777777;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   margin-left: auto;
