@@ -1,0 +1,136 @@
+/*
+ * style.css
+ */
+
+ body {
+   /* background-color: lightgray; */
+   /* background-image: url("linkedin-logo.png"); */
+   background: repeating-linear-gradient( -45deg, #000 0px, #000 5px, #333 6px, #333 11px, #000 12px);
+    width: 100%;
+    color: #777777;
+   /* background-color: lightsalmon; */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ }
+
+ /* the header section consists of header, h1 and nav */
+ header {
+   align-content: center;
+   width: 100%;
+   height: 100px;
+   background-color: #ffffff;
+   border-style: solid;
+   border-width: 3px 0px 3px 0px;
+   border-color: #cccccc;
+ }
+
+
+ h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  float: left;
+  color: white;
+  background-color: #4aaaa5;
+  margin-left: 9%;
+  width: 20%;
+  padding: 5px 10px;
+ }
+
+ nav {
+   margin: 3% 10% 3% 37%;
+   float: left;
+   color: darkslategray;
+ }
+
+ h2,h3,h4,h5,h6 {
+  color: #4aaaa5;
+  line-height: 2;
+  text-decoration: underline;
+  /* text-decoration-color:  */
+  font-family: 'Georgia', Times, Times New Roman, serif;
+ }
+
+ section {
+  float: left;
+  background-color: green;
+  width: 620px;
+  padding: 15px 15px 30px 15px;
+ }
+
+
+ aside {
+  float: right;
+  background-color: green; 
+  width: 250px;
+  padding: 20px 10px;
+ }
+
+ img {
+  float: left; 
+  margin: 3px 10px 3px 3px; 
+  border: 1px solid #dddddd;
+ }
+
+ p {
+   text-align: justify;
+ }
+ 
+ a {
+   text-decoration: none;
+   color: gray;
+ }
+
+
+/* visited link */
+a:visited {
+    color: darkblue;
+}
+
+/* mouse over link */
+a:hover {
+    color: darkmagenta;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+footer {
+  align-content: center;
+  padding: 3px 10px 3px 10px;
+  text-align: center;
+  color: white;
+  background-color: #666666;
+  border-style: solid;
+  border-width: 3px 0px 0px 0px;
+  border-color: #4aaaa5;
+}
+
+ ul {
+   list-style-type: none;
+ }
+
+ .clearfix::after {
+   content: "";
+   display: block;
+   clear: both;
+ }
+ 
+ .main_content {
+   margin-left: 100px;
+   width: 960px;
+   align-content: center;
+   padding: 20px 0px 5px 0px;
+   margin-bottom: 5px;
+   line-height: 2;
+ }
+
+ .main_box {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #dddddd;
+ }
+
+ #foot_text {
+   text-align: center;
+ }
