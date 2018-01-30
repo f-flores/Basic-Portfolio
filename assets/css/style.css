@@ -63,6 +63,11 @@
   padding: 20px 8px;
  }
 
+ textarea {
+   padding: 30px 30px;
+   border: 2px solid lightpink;
+ }
+
  img {
   float: left; 
   margin: 3px 10px 3px 3px; 
