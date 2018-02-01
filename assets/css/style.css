@@ -46,6 +46,7 @@ body {
   padding: 34px 18px 34px 30px;
  }
 
+ /* input fields width set in order to neatly fit "contact" section */
  input {
    width: 615px;
  }
