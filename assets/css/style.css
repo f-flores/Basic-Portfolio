@@ -168,6 +168,16 @@ footer > p {
    border: none;
  }
 
+ figcaption { 
+  position: absolute;
+  top: 130px;
+  left: 3px;
+  width: 123px;
+  text-align: center;
+  padding: 10px 40px;
+  background-color: #4aaaa5;
+}
+
 
  /*******************************************************
   *
@@ -206,6 +216,13 @@ footer > p {
   border-width: 2px 2px 2px 2px;
   border-color: #dddddd;
  }
+
+ .image_container { 
+  position: relative; 
+  text-align: center;
+  color: black;
+}
+
 
 
  /*******************************************************
