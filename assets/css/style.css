@@ -231,6 +231,9 @@ footer > p {
   width: 89%;
   height: 15%;
   padding: 10px;
+  font-size: 1.2em;
+  color: white;
+  font-weight: 200;
 }
 
 /*
