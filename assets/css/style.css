@@ -101,7 +101,7 @@ body {
 
  img {
   float: left;
-  align-content: center; 
+  /* align-content: center; */
   text-align: center;
   margin: 3px 10px 3px 3px; 
   border: 1px solid #dddddd;
@@ -169,15 +169,8 @@ footer > p {
    border: none;
  }
 
- figcaption { 
-  position: absolute;
-  top: 130px;
-  left: 3px;
-  width: 123px;
-  text-align: center;
-  padding: 10px 40px;
-  background-color: #4aaaa5;
-}
+ 
+
 
 
  /*******************************************************
@@ -218,12 +211,75 @@ footer > p {
   border-color: #dddddd;
  }
 
+
  .image_container { 
+  position: relative; 
+  display: inline-block;
+  margin-left: 2px;
+  text-align: center;
+  color: black;
+}
+
+.image_container .caption_text {
+  position: absolute;
+  z-index: 2;
+  left: 1%;
+  margin: 0 1 auto;
+  text-align: center;
+  top: 70%;
+  background-color: #4aaaa5;
+  width: 89%;
+  height: 15%;
+  padding: 10px;
+}
+
+/*
+.image_container > img {
+  width: 350px;
+  height: 300px;
+}
+*/ 
+
+/*
+ .image_container > figcaption { 
+  position: absolute;
+  top: 130px;
+  left: 3px;
+  width: 123px;
+  text-align: center;
+  padding: 10px 40px;
+  background-color: #4aaaa5;
+}
+*/
+
+/*
+.caption { 
   position: relative; 
   text-align: center;
   color: black;
 }
 
+.caption img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.caption_text {
+  display: block;
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  left: 0;
+  bottom: 0;
+  padding: 1em;
+  font-weight: 700;
+  z-index: 2;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*/
 
 
  /*******************************************************
