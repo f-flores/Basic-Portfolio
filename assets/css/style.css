@@ -13,10 +13,8 @@ body {
   margin: 0;
 } */
 
- body {
-    /* display: flex;  */
-   /* flex-direction: column; */
-    background: repeating-linear-gradient( -45deg, #000 0px, #000 5px, #333 6px, #333 11px, #000 12px);
+body {
+    background-image: url("../images/circles-light.png");
     width: 100%;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -101,7 +99,6 @@ body {
 
  img {
   float: left;
-  /* align-content: center; */
   text-align: center;
   margin: 3px 10px 3px 3px; 
   border: 1px solid #dddddd;
@@ -111,22 +108,25 @@ body {
    text-align: justify;
  }
  
- /* a tag attributes */
+ /* a tag attributes, a:visited, a:hover, a:active */
  a {
    text-decoration: none;
-   color: gray;
+   color: #777777;
  }
 
 a:visited {
-    color: darkblue;
+    color: #073C40;
 }
 
 a:hover {
-    color: darkmagenta;
+    color: #0D6A71;
+    font-weight: bold;
+    font-size: 120%;
+    text-shadow: 1px 1px #1AD7E5;
 }
 
 a:active {
-    color: blue;
+    color: #1AD7E5;
 }
 
 /* horizontal line attributes */
@@ -170,13 +170,18 @@ footer > p {
  }
 
  
-
-
+ a > img:hover {
+   /* block-size: 110%; */
+ /*  background-color: black; */
+  outline: 2px solid #4aaaa5;
+ }
+ 
 
  /*******************************************************
   *
   * class elements 
   */
+/* "clearfix" hack to neatly align block elements */
  .clearfix::after {
    content: "";
    display: block;
@@ -236,53 +241,12 @@ footer > p {
   font-weight: 200;
 }
 
-/*
-.image_container > img {
-  width: 350px;
-  height: 300px;
+/* changes size and color of button upon hovering */
+.button:hover {
+  background-color: #073C40;
+  font-size: 110%;
+  font-weight: bold;
 }
-*/ 
-
-/*
- .image_container > figcaption { 
-  position: absolute;
-  top: 130px;
-  left: 3px;
-  width: 123px;
-  text-align: center;
-  padding: 10px 40px;
-  background-color: #4aaaa5;
-}
-*/
-
-/*
-.caption { 
-  position: relative; 
-  text-align: center;
-  color: black;
-}
-
-.caption img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-
-.caption_text {
-  display: block;
-  position: absolute;
-  width: 100%;
-  color: #fff;
-  left: 0;
-  bottom: 0;
-  padding: 1em;
-  font-weight: 700;
-  z-index: 2;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-*/
 
 
  /*******************************************************
