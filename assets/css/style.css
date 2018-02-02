@@ -120,8 +120,6 @@ a:visited {
 
 a:hover {
     color: #0D6A71;
-    font-weight: bold;
-    font-size: 120%;
     text-shadow: 1px 1px #1AD7E5;
 }
 
