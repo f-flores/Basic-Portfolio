@@ -8,7 +8,7 @@ This project contains a basic personal portfolio page. The website consists of t
 ### HTML
 First, I defined three html pages to get the basic structure of each page. The `header` section of each page contains a box with my name, a navigation bar with three links to the sections of the website, a height of 100 pixels with the specified background color.
 The `main content` of each page contains two boxes. One box is structured as a content box (650px wide), the other as an `aside` section common to each page (270px wide). The width, per the requirements, of the entire content is 960 pixels wide. Currently, the website is not responsive.
-In the portfolio.html file, to be able to represent a portfolio image with text across, I used a `figure` tag. Within the `figure` tag, I included an `a` tag with an `img` content and a `figcaption` element.
+In the portfolio.html file, to be able to represent a portfolio image with text across, I used a `figure` tag. Within the `figure` tag, I included an `a` tag with an `img` content and a `figcaption` element. I linked two existing small software projects which by no means are intended to be included in a "final version" of my portfolio; these were used for presentation purposes. The other portfolio images are simply self-referencing placeholder images.
 There is common `footer` section for each html file.
 I used `validator.w3.org` to validate the html files.
 
